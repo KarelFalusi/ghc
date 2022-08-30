@@ -27,10 +27,31 @@
         </article>
     </section>
 
-    <div id="map"></div>
+    <div class="ratio ratio-16x9">
+        <div id="map"></div>
+    </div>
 
 
 {% endblock %}
 
 
-{% block script %}{% endblock %}
+{% block script %}
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXd8mwzW0g7UtZQYcbf_3mQxA01EVpl3o&callback=initMap&v=weekly"
+        defer></script>
+    <script>
+        function initMap() {
+            const ivySt = {
+                lat: 37.7771997,
+                lng: -122.4256707
+            };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 18,
+                center: ivySt
+            });
+            const marker = new google.maps.Marker({position: ivySt, map: map});
+        }
+
+        window.initMap = initMap;
+    </script>
+{% endblock %}
