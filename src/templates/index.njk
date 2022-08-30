@@ -3,25 +3,34 @@
 {% block title %}Generic Hipser Coffee{% endblock %}
 
 {% block content %}
+
     <section>
         <h1>Generic Hipster Coffee</h1>
-        <p>Speciality coffee, fresh food &amp; local community</p>
-        <img src="/img/counter.jpg" alt="" {#width="" height=""#}>
+        <p class="h3">Speciality coffee, fresh food &amp; local community</p>
+        <img src="/img/counter.jpg" class="img-fluid" alt="" {#width="" height=""#}/>
     </section>
-    <article>
-        <h2>Opening hours</h2>
-        <p>sunday – thursday: 8:00 – 23:00<br>friday – saturday: 8:00 – 1:00</p>
-    </article>
-    <article>
-        <h2>Book a table</h2>
-        <p>Call <a href="tel:+14153214567">+1 415-321-4567</a>
-        </p>
-    </article>
-    <article>
-        <h2>Address</h2>
-        <p>321 Ivy St.<br>San Francisco, CA 94102</p>
-    </article>
 
-    <img src="/img/map.png" alt="">
+    <section class="row">
+        <article class="col-sm">
+            <h2 class="h4">Opening hours</h2>
+            <p>sunday – thursday: 8:00 – 23:00<br/>friday – saturday: 8:00 – 1:00</p>
+        </article>
+        <article class="col-sm">
+            <h2 class="h4">Book a table</h2>
+            <p>Call
+                <a class="text-decoration-none" href="tel:+14153214567">+1 415-321-4567</a>
+            </p>
+        </article>
+        <article class="col-sm">
+            <h2 class="h4">Address</h2>
+            <p>321 Ivy St.<br/>San Francisco, CA 94102</p>
+        </article>
+    </section>
+
+    <div id="map"></div>
+
 
 {% endblock %}
+
+
+{% block script %}{% endblock %}
