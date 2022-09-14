@@ -1223,9 +1223,9 @@
     // $card-inner-border-radius: subtract($card-border-radius, $card-border-width); $card-inner-border-radius: $card-inner-border-radius !global; // subtract($card-border-radius, $card-border-width)
     // $card-cap-padding-y: $card-spacer-y * .5; $card-cap-padding-y: $card-cap-padding-y !global; // $card-spacer-y * .5
     // $card-cap-padding-x: $card-spacer-x; $card-cap-padding-x: $card-cap-padding-x !global; // $card-spacer-x
-    // $card-cap-bg: rgba($black, .03); $card-cap-bg: $card-cap-bg !global; // rgba($black, .03)
+    $card-cap-bg: transparent; $card-cap-bg: $card-cap-bg !global; // rgba($black, .03)
     // $card-cap-color: null; $card-cap-color: $card-cap-color !global; // null
-    // $card-height: null; $card-height: $card-height !global; // null
+    $card-height: 100%; $card-height: $card-height !global; // null
     // $card-color: null; $card-color: $card-color !global; // null
     // $card-bg: $white; $card-bg: $card-bg !global; // $white
     // $card-img-overlay-padding: $spacer; $card-img-overlay-padding: $card-img-overlay-padding !global; // $spacer
