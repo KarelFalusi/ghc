@@ -415,9 +415,9 @@
     // variables. Mostly focused on spacing.
     // You can add more entries to the $spacers map, should you need more variation.
 
-    // $spacer: 1rem; $spacer: $spacer !global; // 1rem
+     $spacer: 1.5rem; $spacer: $spacer !global; // 1rem
 
-    /*
+    
     $spacers: (
         0: 0,
         1: $spacer * .25,
@@ -426,7 +426,7 @@
         4: $spacer * 1.5,
         5: $spacer * 3,
     ); $spacers: $spacers !global;
-    */
+    
 
     // Position
     //
@@ -477,37 +477,35 @@
     // Define the minimum dimensions at which your layout will change,
     // adapting to different screen sizes, for use in media queries.
 
-    /*
+    
     $grid-breakpoints: (
         xs: 0,
         sm: 576px,
         md: 768px,
         lg: 992px,
         xl: 1200px,
-        xxl: 1400px
     ); $grid-breakpoints: $grid-breakpoints !global;
-    */
+    
 
     // Grid containers
     //
     // Define the maximum width of `.container` for different screen sizes.
 
-    /*
+    
     $container-max-widths: (
         sm: 540px,
         md: 720px,
         lg: 960px,
         xl: 1140px,
-        xxl: 1320px
     ); $container-max-widths: $container-max-widths !global;
-    */
+    
 
     // Grid columns
     //
     // Set the number of columns and specify the width of the gutters.
 
     // $grid-columns: 12; $grid-columns: $grid-columns !global; // 12
-    // $grid-gutter-width: 1.5rem; $grid-gutter-width: $grid-gutter-width !global; // 1.5rem
+     $grid-gutter-width: 3rem; $grid-gutter-width: $grid-gutter-width !global; // 1.5rem
     // $grid-row-columns: 6; $grid-row-columns: $grid-row-columns !global; // 6
 
     // Container padding
