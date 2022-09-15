@@ -1055,8 +1055,8 @@
     // $nav-link-padding-x: 1rem; $nav-link-padding-x: $nav-link-padding-x !global; // 1rem
     // $nav-link-font-size: null; $nav-link-font-size: $nav-link-font-size !global; // null
     // $nav-link-font-weight: null; $nav-link-font-weight: $nav-link-font-weight !global; // null
-    // $nav-link-color: var(--#{$prefix}link-color); $nav-link-color: $nav-link-color !global; // var(--#{$prefix}link-color)
-    // $nav-link-hover-color: var(--#{$prefix}link-hover-color); $nav-link-hover-color: $nav-link-hover-color !global; // var(--#{$prefix}link-hover-color)
+    $nav-link-color: $cyan; $nav-link-color: $nav-link-color !global; // var(--#{$prefix}link-color)
+    $nav-link-hover-color: $light; $nav-link-hover-color: $nav-link-hover-color !global; // var(--#{$prefix}link-hover-color)
     // $nav-link-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out; $nav-link-transition: $nav-link-transition !global; // color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
     // $nav-link-disabled-color: $gray-600; $nav-link-disabled-color: $nav-link-disabled-color !global; // $gray-600
 
@@ -1078,7 +1078,7 @@
     // $navbar-padding-y: $spacer * .5; $navbar-padding-y: $navbar-padding-y !global; // $spacer * .5
     // $navbar-padding-x: null; $navbar-padding-x: $navbar-padding-x !global; // null
 
-    // $navbar-nav-link-padding-x: .5rem; $navbar-nav-link-padding-x: $navbar-nav-link-padding-x !global; // .5rem
+    $navbar-nav-link-padding-x: 1rem; $navbar-nav-link-padding-x: $navbar-nav-link-padding-x !global; // .5rem
 
     // $navbar-brand-font-size: $font-size-lg; $navbar-brand-font-size: $navbar-brand-font-size !global; // $font-size-lg
     // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
@@ -1101,9 +1101,9 @@
     // $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); $navbar-dark-toggler-icon-bg: $navbar-dark-toggler-icon-bg !global; // url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")
     // $navbar-dark-toggler-border-color: rgba($white, .1); $navbar-dark-toggler-border-color: $navbar-dark-toggler-border-color !global; // rgba($white, .1)
 
-    // $navbar-light-color: rgba($black, .55); $navbar-light-color: $navbar-light-color !global; // rgba($black, .55)
-    // $navbar-light-hover-color: rgba($black, .7); $navbar-light-hover-color: $navbar-light-hover-color !global; // rgba($black, .7)
-    // $navbar-light-active-color: rgba($black, .9); $navbar-light-active-color: $navbar-light-active-color !global; // rgba($black, .9)
+    $navbar-light-color: $gray-600; $navbar-light-color: $navbar-light-color !global; // rgba($black, .55)
+    $navbar-light-hover-color: $gray-900; $navbar-light-hover-color: $navbar-light-hover-color !global; // rgba($black, .7)
+    $navbar-light-active-color: $gray-900; $navbar-light-active-color: $navbar-light-active-color !global; // rgba($black, .9)
     // $navbar-light-disabled-color: rgba($black, .3); $navbar-light-disabled-color: $navbar-light-disabled-color !global; // rgba($black, .3)
     // $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); $navbar-light-toggler-icon-bg: $navbar-light-toggler-icon-bg !global; // url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")
     // $navbar-light-toggler-border-color: rgba($black, .1); $navbar-light-toggler-border-color: $navbar-light-toggler-border-color !global; // rgba($black, .1)
