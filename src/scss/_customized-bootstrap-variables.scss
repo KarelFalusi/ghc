@@ -394,7 +394,7 @@
     // $enable-button-pointers: true; $enable-button-pointers: $enable-button-pointers !global; // true
     // $enable-rfs: true; $enable-rfs: $enable-rfs !global; // true
     // $enable-validation-icons: true; $enable-validation-icons: $enable-validation-icons !global; // true
-    // $enable-negative-margins: false; $enable-negative-margins: $enable-negative-margins !global; // false
+    $enable-negative-margins: true; $enable-negative-margins: $enable-negative-margins !global; // false
     // $enable-deprecation-messages: true; $enable-deprecation-messages: $enable-deprecation-messages !global; // true
     // $enable-important-utilities: true; $enable-important-utilities: $enable-important-utilities !global; // true
 
@@ -425,6 +425,7 @@
         3: $spacer,
         4: $spacer * 1.5,
         5: $spacer * 3,
+        6: $spacer * 2,
     ); $spacers: $spacers !global;
     
 
@@ -1103,7 +1104,7 @@
 
     $navbar-light-color: $gray-600; $navbar-light-color: $navbar-light-color !global; // rgba($black, .55)
     $navbar-light-hover-color: $gray-900; $navbar-light-hover-color: $navbar-light-hover-color !global; // rgba($black, .7)
-    $navbar-light-active-color: $gray-900; $navbar-light-active-color: $navbar-light-active-color !global; // rgba($black, .9)
+    // $navbar-light-active-color: rgba($black, .9); $navbar-light-active-color: $navbar-light-active-color !global; // rgba($black, .9)
     // $navbar-light-disabled-color: rgba($black, .3); $navbar-light-disabled-color: $navbar-light-disabled-color !global; // rgba($black, .3)
     // $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); $navbar-light-toggler-icon-bg: $navbar-light-toggler-icon-bg !global; // url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")
     // $navbar-light-toggler-border-color: rgba($black, .1); $navbar-light-toggler-border-color: $navbar-light-toggler-border-color !global; // rgba($black, .1)
