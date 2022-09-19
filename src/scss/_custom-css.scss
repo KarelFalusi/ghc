@@ -13,3 +13,10 @@ h6,
     letter-spacing: 0.07em;
     text-transform: uppercase;
 }
+
+@include media-breakpoint-up(md) {
+    .navbar-brand img {
+        width: 240px;
+        height: 240px;
+    }
+}
