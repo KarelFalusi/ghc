@@ -15,12 +15,12 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-light navbar-expand bg-light mb-4 pt-2 pb-2">
+            <nav class="navbar navbar-light navbar-expand bg-light mb-4 py2">
                 <div class="container flex-column flex-md-row">
                     <a class="navbar-brand" href="/">
                         <img src="/svg/logo.svg" alt="Generic Hipster Coffee" width="180" height="180"/>
                     </a>
-                    <ul class="navbar-nav gap-lg-3">
+                    <ul class="navbar-nav gap-sm-3">
                         <li class="nav-item">
                             <a class="nav-link {% block navHome %}{% endblock %}" href="/">Home</a>
                         </li>
@@ -41,8 +41,8 @@
         <main class="container"> {% block content %}{% endblock %}
             </main>
             <footer class="bg-dark py-5">
-                <div class="container px-1">
-                    <ul class="nav justify-content-center align-items-flex-start mb-2">
+                <div class="container">
+                    <ul class="nav justify-content-center align-items-flex-start mb-2 mx-n3">
                         <li class="nav-item">
                             <a class="nav-link {% block navFooterHome %}{% endblock %}"  href="/">Home</a>
                         </li>
