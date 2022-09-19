@@ -424,8 +424,8 @@
         2: $spacer * .5,
         3: $spacer,
         4: $spacer * 1.5,
-        5: $spacer * 3,
-        6: $spacer * 2,
+        5: $spacer * 2,
+        6: $spacer * 3,
     ); $spacers: $spacers !global;
     
 
@@ -1086,7 +1086,7 @@
     // $nav-link-height: $font-size-base * $line-height-base + $nav-link-padding-y * 2; $nav-link-height: $nav-link-height !global; // $font-size-base * $line-height-base + $nav-link-padding-y * 2
     // $navbar-brand-height: $navbar-brand-font-size * $line-height-base; $navbar-brand-height: $navbar-brand-height !global; // $navbar-brand-font-size * $line-height-base
     // $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) * .5; $navbar-brand-padding-y: $navbar-brand-padding-y !global; // ($nav-link-height - $navbar-brand-height) * .5
-    $navbar-brand-margin-end: 0rem; $navbar-brand-margin-end: $navbar-brand-margin-end !global; // 1rem
+    $navbar-brand-margin-end: 0; $navbar-brand-margin-end: $navbar-brand-margin-end !global; // 1rem
 
     // $navbar-toggler-padding-y: .25rem; $navbar-toggler-padding-y: $navbar-toggler-padding-y !global; // .25rem
     // $navbar-toggler-padding-x: .75rem; $navbar-toggler-padding-x: $navbar-toggler-padding-x !global; // .75rem
