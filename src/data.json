@@ -1,33 +1,68 @@
 {
-  "bootstrapVersion": "5.2.0",
-  "sampleColors": [
+  "coffees": [
     {
-      "name": "red",
-      "value": "#f00"
+      "name": "Chelbesa",
+      "origin": "Ethiopia",
+      "region": "Gedeb",
+      "producer": "various smallholders",
+      "varieties": "Wolisho & Dega",
+      "process": "washed",
+      "tastes": [
+        "blackcurrant",
+        "praline",
+        "lychee"
+      ],
+      "shortDescription": "Chelbesa from Gedeb, Ethiopia is back! Super tasty, complex blackberry and lychee notes are accentuated by a moreish praline sweetness resulting in a must-taste cup!",
+      "description": "A firm favourite in our seasonal Ethiopian offering, we’re thrilled to welcome back Chelbesa. Brimming with all the fruit and floral notes Ethiopian coffees are celebrated for, Chelbesa offers sunshine in a cup. The first of two sites owned by exporting company, SNAP Coffee, Chelbesa washing station is located at 2100 masl, close to Worka Town in Gedeb. Managed by Girum Assefa, the proximity of the washing station means that farmers can get their harvest to the washing station within 40 minutes. Buying cherry from 615 local smallholders, Chelbesa is the largest coffee-growing area in Gedeb, with 1240 hectares cultivated with coffee. Leaving the cherry to ripen for longer periods, coffees from Chelbesa have a distinct sweetness and complexity leaning towards creamy tropical notes accentuated by pretty florals and fruitiness.",
+      "image": "chelbesa.jpg"
     },
     {
-      "name": "green",
-      "value": "#0f0"
+      "name": "Bela Vista",
+      "origin": "Brazil",
+      "region": "Espirito Santo",
+      "producer": "Laerte Penna Moura",
+      "varieties": "Yellow Catuai",
+      "process": "Pulped Natural",
+      "tastes": [
+        "red grape",
+        "pistachio",
+        "caramel"
+      ],
+      "shortDescription": "The pulped natural Bela Vista, from the Espirito Santo region in Brazil, will keep you coming back for more!",
+      "description": "Looking for a new favourite? This is it! Introducing Bela Vista produced by Laerte Penna Moura from Castelo in The Montanhas do Espírito Santo, Brazil. Working closely with his wife, Gelcimar, and son Lucas, Laerte has been producing speciality coffee since 2001, and sweet as pie, Bela Vista ticks all the boxes. A region dominated by small scale coffee growers actively engaged in the entire production process - because of a quality program launched in the 1980s that included updated equipment, Pulped Naturals from Espirito Santo state have become a modern classic for Brazilian speciality coffee. These coffees are all about texture, and Penna Moura’s coffee does not disappoint! Though most of Brazil is flat compared to other origins, the steep mountainside farms of Espírito Santo contribute to the flavour profile by creating microclimate-induced density translating into complexity.",
+      "image": "bela-vista.jpg"
     },
     {
-      "name": "blue",
-      "value": "#00f"
+      "name": "Quebradón",
+      "origin": "Colombia",
+      "region": "Huila",
+      "producer": "7 smallholders",
+      "varieties": "Caturra, Colombia, Castillo, Typica",
+      "process": "Washed",
+      "tastes": [
+        "red apple",
+        "hazelnut",
+        "toffee"
+      ],
+      "shortDescription": "From one of our longest-standing grower relationships, Quebradón is a coffee we look forward to every year. This crop shows gentle red apple and hazelnut flavours and a delightful toffee finish.",
+      "description": "One of the first Huilan coffees we ever showcased, we always get a little silly excited when it's time to welcome back Quebradón from the municipality of Palestina. Consistently delicious, we're forever impressed by its distinct clarity and silky smooth mouthfeel. Representative of 130 coffee-growing families, this year's lot is the combined work of 7 of its contributing members. Amongst avocado and cattle farming, coffee is the main agricultural activity in the region, and most of the farmers are 3rd and 2nd generation growers. Surrounded by mountains, Palestina is considered a coffee-growing paradise, and during the 1930s and 1940s, many coffee farmers from across Colombia migrated to the region in search of better opportunities. And it's this mix of indigenous and traditional farming methods that ultimately shaped the exceptional quality and unmistakable flavour profile of both Palestina and Quebradón.",
+      "image": "quebradon.jpg"
     },
     {
-      "name": "cyan",
-      "value": "#0ff"
-    },
-    {
-      "name": "magenta",
-      "value": "#f0f"
-    },
-    {
-      "name": "yellow",
-      "value": "#ff0"
-    },
-    {
-      "name": "black",
-      "value": "#000"
+      "name": "Biftu Gudina",
+      "origin": "Ethiopia",
+      "region": "Agaro",
+      "producer": "Biftu Gudina Coop",
+      "varieties": "1274, Regional Landraces",
+      "process": "Washed",
+      "tastes": [
+        "raspberry",
+        "honey",
+        "marshmallow"
+      ],
+      "shortDescription": "Aglow with floral elegance, the first Ethiopian coffee in this season's line-up is Biftu Gudina from Agaro, Jimma.",
+      "description": "A great example of the Technoserve legacy in Western Ethiopia, Biftu Gudina is a template for some of the best washed coffees produced in the region today. Founded in 2012, The Biftu Gudina Cooperative operates in a remote pocket of the Agaro Region in Western Ethiopia. With limited infrastructure, farmers used to walk their harvests to the nearest town Bashesha, causing their cherry to bruise, break and over-ferment along the way. With the assistance of Technoserve, the first thing the Biftu Gudina Cooperative did was build a wet mill and gravel road to Bashesha. In 2009, Technoserve began working in Ethiopia on a two-fold mission: to improve coffee quality and ensure the farmers receive a higher percentage of the value they produce.",
+      "image": "biftu-gudina.jpg"
     }
   ]
 }
