@@ -304,8 +304,31 @@
         </section>
     </div>
 
-    <div class="ratio ratio-16x9 mb-n4">
-        <img src="/img/espresso-machine-detail.jpg" class="img-fluid" alt="" {#width="" height=""#}></div>
+    
+    <img 
+        srcset="
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_272.jpg 272w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_769.jpg 769w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_1106.jpg 1106w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_1437.jpg 1437w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_1743.jpg 1743w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_1996.jpg 1996w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_2153.jpg 2153w,
+            /img/espresso-machine-detail_1_k2zuei_c_scale,w_2184.jpg 2184w"
+        sizes="
+            (min-width: 1200px) 1092px,
+            (min-width: 992px) 912px,
+            (min-width: 768px) 672px,
+            (min-width: 576px) 492px,
+            calc(100vw - 2 * 1.5rem)"
 
-
+        src="/img/espresso-machine-detail_1_k2zuei_c_scale,w_1106.jpg" 
+        class="img-fluid mb-n4" 
+        alt="" 
+        width="1106" 
+        height="622"
+    />
+        
     {% endblock %}
+
+        
