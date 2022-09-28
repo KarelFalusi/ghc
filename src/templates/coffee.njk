@@ -14,13 +14,29 @@
         a multi award winning coffee roasting company based in East London.</p>
 
     <p>You can currently buy these beans in 350g bags.</p>
-
     <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
         {% for coffee in coffees %}
             <div class="col">
                 <section class="card bg-light border-light">
                     <h2 class="card-header">{{ coffee.name }} <span class="d-inline-block">({{ coffee.origin }})</span></h2>
-                    <img src="/img/coffees/{{ coffee.image }}" class="img-fluid  card-img-top" width="480" height="480" alt=""/>
+                    <img 
+                        srcset="
+                            {% for image in coffee.images %}
+                                /img/coffees/{{ image.path }} {{ image.width }}w{% if not loop.last %},{% endif %}
+                            {% endfor %}
+                        "
+                        sizes="
+                            (min-width: 1200px) 526px,
+                            (min-width: 992px) 436px,
+                            (min-width: 768px) 316px,
+                            (min-width: 576px) 490px,
+                            calc(100vw - 2 * 1.5rem - 2 * 1px)"
+                        src="/img/coffees/{{ coffee.image.path }}" 
+                        class="img-fluid  card-img-top" 
+                        width="{{ coffee.image.width }}" 
+                        height="{{ coffee.image.width }}" 
+                        alt=""
+                    />
                     <div class="card-body">
                         <p class="card-text fst-italic">
                             {{ coffee.tastes | join(" / ") }}
