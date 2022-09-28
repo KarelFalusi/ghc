@@ -21,9 +21,9 @@
                     <h2 class="card-header">{{ coffee.name }} <span class="d-inline-block">({{ coffee.origin }})</span></h2>
                     <img 
                         srcset="
-                        {% for image in coffee.images %}
-                            /img/coffees/{{ image.path }} {{ image.width }}w{% if not loop.last %},{% endif %}
-                        {% endfor %}
+                            {% for image in coffee.images %}
+                                /img/coffees/{{ image.path }} {{ image.width }}w{% if not loop.last %},{% endif %}
+                            {% endfor %}
                         "
                         sizes="
                             (min-width: 1200px) 526px,
