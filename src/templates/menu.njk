@@ -1,6 +1,8 @@
 {% extends '_base.njk' %}
 
-{% block title %}Menu{% endblock %}
+{% block title %}Menu | {{super()}}{% endblock %}
+
+{% block description %}We not only offer different variations of coffee, but also something to eat.{% endblock %}
 
 {% block navMenu %}active{% endblock %}
 
