@@ -1,6 +1,6 @@
-# A basic template to develop a website based on Bootstrap 5
+# A responsive page website of a fictional coffee shop based on a provided design.
 
-Includes:
+##Used technologies:
 
 -   **Bootstrap 5**: build responsive, mobile-first projects on the web with the world's most popular front-end component library
 -   **Gulp 4**: task runner for running all of the following
@@ -49,17 +49,13 @@ npm run build
 
 `index.css` is compiled from `src/scss/index.scss` by [Sass](http://sass-lang.com/).
 
-You don't know _Scss_ syntax or don't want to use it? Just use plain CSS in `src/scss/_custom-css.scss`.
-
 ## HTML (Nunjucks templates)
 
 HTML is generated from [Nunjucks](https://mozilla.github.io/nunjucks/) templates in `src/templates`.
 
-You don't need to leverage the power of templates. You can just create plain HTML files with `*.njk` extension.
+[Documentation for Nunjucks](https://mozilla.github.io/nunjucks/templating.html).
 
 If you don't want a template to be turned into HTML file start it with `_`. Typically these are templates used for _include_ or _extend_.
-
-[Documentation for Nunjucks](https://mozilla.github.io/nunjucks/templating.html).
 
 If you need some data to be available in all templates, use `templates/data.json` for that.
 
@@ -69,9 +65,7 @@ Folders and files from `/src/static/` are simply copied directly to `/dist/` fol
 
 ### Bootstrap
 
-You can comment out Bootstrap components you don't need in `/src/index.scss`.
-
-`/src/_1-customized-bootstrap-variables.scss` contains only customized Bootstrap variables. Use `/src/_4-customized-bootstrap-variables.scss` instead for your project.
+`/src/scss/_customized-bootstrap-variables.scss` contains only customized Bootstrap variables.
 
 See `browserslist` in `package.json` for supported browsers.
 
@@ -81,10 +75,9 @@ Upload everything in `/dist/` folder to the server.
 
 #### Surge.sh
 
-You can use [surge.sh](https://surge.sh) free service for that.
+I use [surge.sh](https://surge.sh) free service for that.
 
 1. If you don’t have a surge account: run surge client with `npx surge` in `/dist` folder to create it.
-1. Set your own domain in `package.json` (just replace `https://my-first-bootstrap-5-website.surge.sh` with yours).
 1. From now on run `npm run deploy` whenever you want to publish a new version.
 
 If you want multiple people to be able to deploy to the same domain, run `surge --add mail.your.collaborator.used.to.register.with.surge@example.com` for each.
