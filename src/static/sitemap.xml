@@ -1,0 +1,22 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://karel-ghc.surge.sh/</loc>
+<lastmod>2022-09-22T09:00:00+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://karel-ghc.surge.sh/menu</loc>
+<lastmod>2022-09-29</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://karel-ghc.surge.sh/coffee</loc>
+<lastmod>2022-09-29</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://karel-ghc.surge.sh/our-story</loc>
+<lastmod>2022-09-29</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
