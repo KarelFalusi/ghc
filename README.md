@@ -1,4 +1,4 @@
-# Hipster Coffee
+# Generic Hipster Coffee
 ## A responsive page website of a fictional coffee shop based on a provided design.
 [karel-ghc.surge.sh](https://karel-ghc.surge.sh/)
 
@@ -82,4 +82,4 @@ I use [surge.sh](https://surge.sh) free service for that.
 1. If you don’t have a surge account: run surge client with `npx surge` in `/dist` folder to create it.
 1. From now on run `npm run deploy` whenever you want to publish a new version.
 
-If you want an acces to [karel-ghc.surge.sh](https://karel-ghc.surge.sh/) contact me.
+If you want an access to [karel-ghc.surge.sh](https://karel-ghc.surge.sh/) contact me.
