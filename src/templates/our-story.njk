@@ -1,6 +1,8 @@
 {% extends '_base.njk' %}
 
-{% block title %}Our story{% endblock %}
+{% block title %}Our story | {{ super() }}{% endblock %}
+
+{% block description %}GHC started as a project of two friends and passionate baristas, John & Don in 2010.{% endblock %}
 
 {% block navOurStory %}active{% endblock %}
 
