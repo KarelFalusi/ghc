@@ -1,6 +1,6 @@
 # A responsive page website of a fictional coffee shop based on a provided design.
 
-##Used technologies:
+## Used technologies:
 
 -   **Bootstrap 5**: build responsive, mobile-first projects on the web with the world's most popular front-end component library
 -   **Gulp 4**: task runner for running all of the following
