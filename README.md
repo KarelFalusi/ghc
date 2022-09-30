@@ -1,4 +1,5 @@
-# A responsive page website of a fictional coffee shop based on a provided design.
+# Hipster Coffee
+## A responsive page website of a fictional coffee shop based on a provided design.
 [karel-ghc.surge.sh](https://karel-ghc.surge.sh/)
 
 ## Used technologies:
