@@ -2,35 +2,15 @@
 
 {% block title %}Page not found{% endblock %}
 
-{% block navHome %}active{% endblock %}
-
-{% block navFooterHome %}link-light{% endblock %}
-
 {% block content %}
     <section>
-        <h1 class="text-warning text-center">Page not found</h1>
+        <h1 class="text-danger text-center">Page not found</h1>
         <p class="h2 text-center">You can visit ours other pages
-            <a class="text-warning" href="/menu">Menu</a>
+            <a class="link-danger" href="/menu">Menu</a>
             /
-            <a class="text-warning" href="/coffee">Coffee</a>
+            <a class="link-danger" href="/coffee">Coffee</a>
             /
-            <a class="text-warning" href="/our-story">Our Story</a>
+            <a class="link-danger" href="/our-story">Our Story</a>
         </p>
-        <img
-            srcset=" /img/counter_lacex5_c_scale,w_272.jpg 272w, /img/counter_lacex5_c_scale,w_518.jpg 518w,
-                /img/counter_lacex5_c_scale,w_707.jpg 707w, /img/counter_lacex5_c_scale,w_862.jpg 862w,
-                /img/counter_lacex5_c_scale,w_1013.jpg 1013w, /img/counter_lacex5_c_scale,w_1147.jpg 1147w,
-                /img/counter_lacex5_c_scale,w_1275.jpg 1275w, /img/counter_lacex5_c_scale,w_1401.jpg 1401w,
-                /img/counter_lacex5_c_scale,w_1521.jpg 1521w, /img/counter_lacex5_c_scale,w_1647.jpg 1647w,
-                /img/counter_lacex5_c_scale,w_1761.jpg 1761w, /img/counter_lacex5_c_scale,w_1866.jpg 1866w,
-                /img/counter_lacex5_c_scale,w_1979.jpg 1979w, /img/counter_lacex5_c_scale,w_2079.jpg 2079w,
-                /img/counter_lacex5_c_scale,w_2156.jpg 2156w, /img/counter_lacex5_c_scale,w_2184.jpg 2184w"
-            sizes=" (min-width: 1200px) 1092px, (min-width: 992px) 912px, (min-width: 768px) 672px, (min-width: 576px) 492px,
-                calc(100vw - 2 * 1.5rem)"
-            src="/img/counter_lacex5_c_scale,w_1275.jpg"
-            class="img-fluid mt-2 mb-3"
-            alt=""
-            width="1275"
-            height="717"/>
     </section>
 {% endblock %}
