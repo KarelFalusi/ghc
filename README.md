@@ -1,4 +1,5 @@
 # A responsive page website of a fictional coffee shop based on a provided design.
+[karel-ghc.surge.sh](https://karel-ghc.surge.sh/)
 
 ## Used technologies:
 
@@ -39,11 +40,11 @@ And see the result on `http://localhost:3000/`
 
 To build everything once for production deploy (in `/dist/` folder)
 
-This build uses all generated HTML files for _UnCSS_. If it removes something you need to keep, add and array to `ignore` option in `gulpfile.esm.js`.
-
 ```shell
 npm run build
 ```
+
+This build uses all generated HTML files for _UnCSS_. If it removes something you need to keep, add and array to `ignore` option in `gulpfile.esm.js`.
 
 ## CSS (Sass preprocessor)
 
@@ -57,7 +58,7 @@ HTML is generated from [Nunjucks](https://mozilla.github.io/nunjucks/) templates
 
 If you don't want a template to be turned into HTML file start it with `_`. Typically these are templates used for _include_ or _extend_.
 
-If you need some data to be available in all templates, use `templates/data.json` for that.
+If you need some data use `templates/data.json` for that.
 
 ## Static files (JavaScript, images, …)
 
@@ -80,4 +81,4 @@ I use [surge.sh](https://surge.sh) free service for that.
 1. If you don’t have a surge account: run surge client with `npx surge` in `/dist` folder to create it.
 1. From now on run `npm run deploy` whenever you want to publish a new version.
 
-If you want multiple people to be able to deploy to the same domain, run `surge --add mail.your.collaborator.used.to.register.with.surge@example.com` for each.
+If you want an acces to [karel-ghc.surge.sh](https://karel-ghc.surge.sh/) contact me.
